@@ -1,5 +1,5 @@
 {
-  "name": "@danielmoncada/angular-datetime-picker-moment-adapter",
+  "name": "@fincrm/danielmoncada-angular-datetime-picker-moment-adapter",
   "version": "4.0.0",
   "description": "Angular Date Time Picker (MomentJs Adpater)",
   "keywords": [
@@ -19,16 +19,16 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielmoncada/date-time-picker-moment-adapter.git"
+    "url": "https://github.com/fincrm/danielmoncada-date-time-picker-moment-adapter.git"
   },
   "homepage": "https://github.com/danielmoncada/date-time-picker-moment-adapter",
   "publishConfig": {
     "access": "public"
   },
   "peerDependencies": {
-    "@angular/cdk": "^17.0.0",
-    "@angular/common": "^17.0.0",
-    "@angular/core": "^17.0.0",
+    "@angular/cdk": "^16.0.0 || ^17.0.0",
+    "@angular/common": "^16.0.0 || ^17.0.0",
+    "@angular/core": "^16.0.0 || ^17.0.0",
     "moment": "^2.29.4"
   },
   "dependencies": {
